@@ -1,0 +1,19 @@
+﻿<Window x:Class="VeelgebruikteKlassen1_Raadspel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VeelgebruikteKlassen1_Raadspel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="evaluateButton" Content="Evalueer" HorizontalAlignment="Left" Margin="555,104,0,0" VerticalAlignment="Top" Height="44" Width="151" Click="evaluateButton_Click"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="555,0,0,0" VerticalAlignment="Center" Height="46" Width="151" Click="newButton_Click"/>
+        <Button x:Name="endButton" Content="Einde" HorizontalAlignment="Left" Margin="555,260,0,0" VerticalAlignment="Top" Height="38" Width="151" Click="endButton_Click"/>
+        <Label Content="Geef een getal tussen 1 en 100:" HorizontalAlignment="Left" Margin="166,126,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Margin="361,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Height="26"/>
+        <TextBox x:Name="output1TextBox" HorizontalAlignment="Left" Margin="166,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="23"/>
+        <TextBox x:Name="output2TextBox" HorizontalAlignment="Left" Height="39" Margin="166,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315"/>
+
+    </Grid>
+</Window>
